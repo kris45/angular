@@ -1,0 +1,55 @@
+@import '../../../../assets/styles/abstract/variables';
+
+section {
+  margin: 24px 85px 79px;
+}
+
+input {
+  width: 179px;
+  height: 24px;
+  border-radius: 3px;
+  border: solid 1px #d9dbe3;
+  background-color: #ffffff;
+  padding: 12px 138px 12px 42px;
+}
+
+.ic_search {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin: 12px;
+}
+
+.btn {
+  border: 0;
+  border-radius: 3px;
+  line-height: 2.56;
+  color: #fff;
+
+  &__search {
+    margin-left: 6px;
+    width: 100px;
+    height: 48px;
+    background-color: #9bc837;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.13px;
+  }
+
+  &__add {
+    font-size: 14px;
+    width: 138px;
+    height: 36px;
+    letter-spacing: -0.1px;
+    background-color: $dark-blue;
+  }
+}
+
+.addBlock {
+  margin: 24px 0 12px;
+  text-align: right;
+}
+
+
+
